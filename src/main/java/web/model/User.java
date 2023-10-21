@@ -1,10 +1,11 @@
 package web.model;
 
 public class User {
-    private final String name;
-    private final String surname;
+    private String id;
+    private String name;
+    private String surname;
 
-    private final int age;
+    private int age;
 
     public User(String name, String surname, int age) {
         this.name = name;
